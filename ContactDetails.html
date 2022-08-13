@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ContactDetails</title>
+  </head>
+  <body>
+    <h3>My Contact Details </h3>
+      <p><a href="https://www.instagram.com/adri6strings/">Ig</a> </p>
+      <p>Ohone:44444444</p>
+      <p>Miemail@.com</p>
+    <!-- form formularios, para profundizar necesitaremos Java
+        <form>
+          <label>Name: </label>
+          <input type="text"> para permitir al usuario escribir un texto
+          <input type="submit"> submit es para guardar el dato
+        </form>
+        Otros Tipos:
+            <input type="text">
+            <input type="submit">
+            <input type="file">
+            <input type="date">
+            <input type="radio">
+            <input type="range"> barra que se desplaza
+            <input type="color" >Seleccion de un color como input del formulario
+      los textarea:
+      <textarea name="name" rows="10" cols="30"></textarea>
+      empieza un cuadro de testo que incialmente tien 10 rows y 30 cols Pero
+      se puede ajustar desde la páqina web
+
+      El submit
+      <form class="" action="index.html" method="post">
+          cuando clicko en submit lo pone en el index.html
+      <form class="" action="mailto:info@myemail.com" method="post">
+          con el mailto abre automaticamente un correo diricido a info@myemail.
+          con toda la informacion del submit
+     <form action="mailto:info@myemail.com" method="post" enctype="text/plain">
+          Borramos el class y anañadimos el atributo enctype encoding typa para indicarle
+          que lo que le vamos a enviar es texto plano y se muestre correctamente
+          Cambiamos los atributos de los input para saber que son en el email, les ponemos nombre:
+            <input type="text" name="YourMessage" value="">
+              YourName, hacemos esto para YourEmail y YourMessage
+              y me mostrara:
+              YourName= lo que introduzca en el formulario
+              YourEmail=lo que introduzca en el formulario
+              YourMessage=lo que introduzca en el formulario
+
+
+
+  -->
+  <hr>
+    <form action="mailto:info@myemail.com" method="post" enctype="text/plain">
+      <label for="">Your Name:</label>
+      <input type="text" name="YourName" value="">
+      <br>
+      <label>Your email: </label>
+      <input type="email" name="YourEmail" value="">
+      <br>
+      <label>Your Message:</label><br>
+      <textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
